@@ -1,0 +1,125 @@
+.menu{
+    width: 1500px;
+    height: 730px;
+    border: 2px solid black;
+    position: relative;
+    
+}
+.tittle{
+    width: 300px;
+    height: 100px;  
+    margin: 4px;    
+    background-color: rgb(239, 239, 239);
+    position: absolute;
+    border: 1px solid black;
+    left: 0;
+}
+.cabecera{
+    width: 1180px;
+    height: 100px;   
+    margin: 4px; 
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border: 1px solid black;
+    right: 0;
+    display: flex;
+}
+.lateral{
+    width: 300px;
+    height: 610px;
+    margin: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    border: 1px solid black; 
+    bottom: 0;
+}
+.principal{
+    width: 1180px;
+    height: 610px;
+    margin: 4px;
+    background-color: rgb(229, 229, 229);
+    position: absolute;
+    border: 1px solid black;
+    right: 0;
+    bottom: 0;
+}
+.tittle_titulo{
+    font-size: 40px;
+    text-align: center;
+}
+.lateral-elementos{
+    font-size: 30px;
+    font-style: italic;
+    margin: 3px;
+}
+.lateral{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+[class^="lateral-elementos__op"]{
+    background-size: contain;
+    list-style-type: none;
+    padding-left: 1.5em;
+    margin-top: 1.20em;
+    
+}
+.lateral-elementos__op--inicio{
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+}
+.lateral-elementos__op--carreras{
+    background-image: url(carreras.png);
+    background-repeat: no-repeat;
+}
+.lateral-elementos__op--ciclo{
+    background-image: url(ciclo.png);
+    background-repeat: no-repeat;
+}
+.lateral-elementos__op--cursos{
+    background-image: url(cursos.png);
+    background-repeat: no-repeat;
+}
+.lateral-elementos__op--docentes{
+    background-image: url(docentes2.png);
+    background-repeat: no-repeat;
+}
+.lateral-elementos__op--asistencia{
+    background-image: url(asistencia.png);
+    background-repeat: no-repeat;
+}
+.lateral-elementos__op--horarios{
+    background-image: url(horario.png);
+    background-repeat: no-repeat;
+}
+.lateral-elementos__op--estudiantes{
+    background-image: url(estudiantes2.png);
+    background-repeat: no-repeat;
+}
+[class^="lateral-elementos__op"]:hover{
+    background-color:slategrey;
+}
+[class^="lateral-elementos__op"]:active{
+    background-color : yellow
+}
+.buscador{
+    height: 50px;
+    width: 430px;
+    background: white;
+    border : 1px solid black;
+    align-content: center;
+    margin: auto;
+    margin-left: 6em;
+}
+.principal{
+    display: flex;
+}
+.principal__title{
+    font-size: 2.5em;
+    margin-left: 2em;
+}
+.principal__form{
+    justify-content: center;
+    
+}
